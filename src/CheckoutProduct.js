@@ -1,4 +1,4 @@
-import React from "react";
+   import React from "react";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import "./CheckoutProduct.css"; 
 import { useStateValue } from "./StateProvider";
@@ -15,10 +15,10 @@ function CheckoutProduct({ id, title, image, price, rating }) {
   };
   return (
     <div className="checkoutProduct">
-        <div className="checkProduct__image">
-      <img src={image} alt="/"></img>
+       
+      <img  className="checkoutProduct__image"src={image} alt="/"></img>
 
-        </div>
+        
       <div className="checkoutProduct__info">
         <p className="checkoutProduct__title"> {title}</p>
         <p className="checkoutProduct__price">

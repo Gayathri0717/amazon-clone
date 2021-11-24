@@ -1,7 +1,10 @@
 .checkoutProduct {
+  margin-top: 20px;
+  border-bottom: 1px solid #DDD;
   display: flex;
 }
-.checkProduct__image {
+.checkoutProduct__image{
+  margin-left: 25px;
   object-fit: contain;
   width: 180px;
   height: 180px;
@@ -17,7 +20,8 @@
   color: #111;
 }
 .checkoutProduct__title {
-    border-bottom: 1px solid #DDD;
+  
+    /* border-bottom: 1px solid #DDD; */
   font-size: larger;
   /* font-weight: 800; */
 }

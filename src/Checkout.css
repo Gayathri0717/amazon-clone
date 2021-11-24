@@ -1,5 +1,25 @@
 .checkout__title{
-    font-size: 25px;
+    padding: 10px;
+    border-bottom: 1px solid #DDD;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-left: 30px;
+    margin-bottom: 46px;
+    margin-top: 44px;
+}
+.checkout{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    height:max-content;
+}
+.checkout__remove{
+    padding: 10px;
+    border-bottom: 1px solid #DDD;
+    font-weight: 100;
+    font-size: larger;
+    line-height: 36px;
     margin-left: 30px;
     margin-bottom: 46px;
     margin-top: 44px;
